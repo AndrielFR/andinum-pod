@@ -1,0 +1,13 @@
+[package]
+name = "andinum-pod"
+description = "Just a live media broadcast solution in rust."
+version = "0.1.0"
+authors = ["Andriel Ferreira <andrielfr@proton.me>"]
+repository = "https://github.com/AndrielFR/andinum-pod"
+readme = "README.md"
+categories = ["multimedia", "multimedia::audio", "multimedia::video"]
+keywords = ["video", "broadcast", "live", "streaming", "rtmp", "hls", "httpflv"]
+edition = "2021"
+
+[dependencies]
+ratatui = "0.27.0"
